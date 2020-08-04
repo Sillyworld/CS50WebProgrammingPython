@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <img
+          class="smallLogo"
+          src="images/googlelogo_color_272x92dp.png"
+          alt="logo"
+        />
+      </div>
+      <div class="emptySpace"></div>
+      <div>
+        <a class="button" href="index.html">Google Search</a>
+        <a class="button" href="imageSearch.html">Image Search</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="titleBanner">
+        <p>Advanced Search</p>
+      </div>
+      <div class="breakLine">
+        <hr />
+      </div>
+      <div class="findPagesWith">
+        <p>Find Pages with...</p>
+      </div>
+      <div class="toDoSearchBox">
+        <p>To do in the search box.</p>
+      </div>
+
+      <form action="https://www.google.com/search" class="advancedForm">
+        <label for="allWords" class="advancedLabel">all these words: </label>
+        <input class="advancedInput" type="text" name="as_q">
+        <label class="advancedLabel" for="exactWord">this exact word or phrase: </label>
+        <input type="text" class="advancedInput" name="as_epq">
+        <label for="anywords" class="advancedLabel">any of these words: </label>
+        <input type="text" class="advancedInput" name="as_oq">
+        <label for="noneWords" class="advancedLabel">none of these words: </label>
+        <input type="text" class="advancedInput" name="as_eq">
+        <input type="submit" class="advancedButton" value="Advanced Search">
+
+      </form>
+
+      <div class="toDoS">
+        <p class="todosItem">
+          Type the important words: <code>tri-colour rat terrier</code>
+        </p>
+        <p class="todosItem">Put exact words in quotes: <code>"rat terrier"</code></p>
+        <p class="todosItem">
+          Type <code>OR</code> between all the words you want:
+          <code>miniature OR standard</code>
+        </p>
+        <p class="todosItem">
+          Put a minus sign just before words that you don't want:
+          <code>-rodent, -"Jack Russell"</code>
+        </p>
+        <p class="todosItem"></p>
+      </div>
+      </p>
+    </div>
+  </body>
+</html>
